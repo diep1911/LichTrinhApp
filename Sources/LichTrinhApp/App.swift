@@ -24,8 +24,6 @@ private struct WebContainer: UIViewRepresentable {
         webView.scrollView.contentInsetAdjustmentBehavior = .never
         if let url = Bundle.main.url(forResource: "index", withExtension: "html", subdirectory: "web") {
             webView.loadFileURL(url, allowingReadAccessTo: url.deletingLastPathComponent())
-        } else if let url = Bundle.module.url(forResource: "index", withExtension: "html", subdirectory: "web") {
-            webView.loadFileURL(url, allowingReadAccessTo: url.deletingLastPathComponent())
         }
         return webView
     }
