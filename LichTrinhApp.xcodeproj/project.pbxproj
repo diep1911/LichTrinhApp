@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100001 /* App.swift */; };
+		AA000002 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = AA100002 /* index.html */; };
+		AA000003 /* manifest.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = AA100003 /* manifest.webmanifest */; };
+		AA000004 /* xlsx.full.min.js in Resources */ = {isa = PBXBuildFile; fileRef = AA100004 /* xlsx.full.min.js */; };
+		AA000005 /* icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = AA100005 /* icon-180.png */; };
+		AA000006 /* icon-192.png in Resources */ = {isa = PBXBuildFile; fileRef = AA100006 /* icon-192.png */; };
+		AA000007 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = AA100007 /* icon-512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA100001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		AA100002 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AA100003 /* manifest.webmanifest */ = {isa = PBXFileReference; lastKnownFileType = text; path = manifest.webmanifest; sourceTree = "<group>"; };
+		AA100004 /* xlsx.full.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = xlsx.full.min.js; sourceTree = "<group>"; };
+		AA100005 /* icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon-180.png; sourceTree = "<group>"; };
+		AA100006 /* icon-192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon-192.png; sourceTree = "<group>"; };
+		AA100007 /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon-512.png; sourceTree = "<group>"; };
+		AA100008 /* LichTrinhApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LichTrinhApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA200001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA300001 = {
+			isa = PBXGroup;
+			children = (
+				AA300002 /* LichTrinhApp */,
+				AA300003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA300002 /* LichTrinhApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA100001 /* App.swift */,
+				AA300004 /* web */,
+			);
+			path = Sources/LichTrinhApp;
+			sourceTree = "<group>";
+		};
+		AA300003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA100008 /* LichTrinhApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA300004 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				AA100002 /* index.html */,
+				AA100003 /* manifest.webmanifest */,
+				AA100004 /* xlsx.full.min.js */,
+				AA300005 /* icons */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		AA300005 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				AA100005 /* icon-180.png */,
+				AA100006 /* icon-192.png */,
+				AA100007 /* icon-512.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA400001 /* LichTrinhApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA600001 /* Build configuration list for PBXNativeTarget "LichTrinhApp" */;
+			buildPhases = (
+				AA200002 /* Sources */,
+				AA200003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LichTrinhApp;
+			productName = LichTrinhApp;
+			productReference = AA100008 /* LichTrinhApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA500001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA400001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA600002 /* Build configuration list for PBXProject "LichTrinhApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = vi;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = AA300001;
+			productRefGroup = AA300003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA400001 /* LichTrinhApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA200003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000002 /* index.html in Resources */,
+				AA000003 /* manifest.webmanifest in Resources */,
+				AA000004 /* xlsx.full.min.js in Resources */,
+				AA000005 /* icon-180.png in Resources */,
+				AA000006 /* icon-192.png in Resources */,
+				AA000007 /* icon-512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA200002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA700001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA700002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA700003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lịch trình";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diep.lichtrinh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA700004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lịch trình";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diep.lichtrinh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA600002 /* Build configuration list for PBXProject "LichTrinhApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA700001 /* Debug */,
+				AA700002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA600001 /* Build configuration list for PBXNativeTarget "LichTrinhApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA700003 /* Debug */,
+				AA700004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA500001 /* Project object */;
+}
