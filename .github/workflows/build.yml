@@ -46,20 +46,11 @@ jobs:
             -parse-as-library \
             -module-name "$APP_NAME" \
             -emit-objc-header-path "$BUILD_DIR/obj/${APP_NAME}-Swift.h" \
-            Sources/LichTrinhApp/App.swift \
-            -o "$BUILD_DIR/obj/App.o"
-
-          # Link into executable
-          xcrun clang \
-            -arch arm64 \
-            -isysroot "$SDK" \
-            -mios-version-min=17.0 \
-            -fobjc-arc \
             -framework SwiftUI \
             -framework UIKit \
             -framework WebKit \
             -framework Foundation \
-            "$BUILD_DIR/obj/App.o" \
+            Sources/LichTrinhApp/App.swift \
             -o "$APP_DIR/$APP_NAME"
 
           echo "Copying web resources..."
